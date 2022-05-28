@@ -1,14 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cyberCafé.js</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="js/index.js"></script>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cyberCafé.js</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="js/função.js"></script>
+        <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg">
+        <link rel="icon" type="image/png" href="/img/favicon/favicon.png">
+    </head>
+
+    <body>
+        <!--Header--->
+        <section id="header">
+            <a href="index.html"><img src="img/logo3.jpeg" alt="logo" class="logo"></a>
+
+        <!--Navbar(Header)-->
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Ínicio</a></li>
+                <li><a href="html/sobre.html">Sobre</a></li>
+                <li><a href="https://www.instagram.com/ieeecsufba/" target="_blank">IEEE C.S UFBA</a></li>
+            </ul>
+        </div>
+        </section>
+
+        <!--Explicando Função-->
+        <section id="função">
+            <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions" target="_blank">Função&nbsp</a></h1><h1>em JavaScript</h1></div>
+            <pre id="explicacao">
+    Função (Function), é um procedimento dentro do JavaScript, que
+    por si é um conjunto de instruções para executar uma tarefa.
+    Podendo possuir parâmetros para ser inicializado, ou não.
+            </pre>
+            
+            
+                
+            <h1>Exemplo</h1>
+            <fieldset>
+            <pre>
+
+                <code>
+&nbsp;function somar() {
+    var tn1 = window.document.getElementById("txtn1");
+    var tn2 = window.document.querySelector("input#txtn2");
+    var res = window.document.getElementById("res");
+    var n1 = Number(tn1.value);
+    var n2 = Number(tn2.value);
+    var s = n1 + n2;
+    res.innerHTML = `A soma entre ${n1} e ${n2} é equivalente a ${s}.`;&nbsp;
+    }
+                </code>
+            </pre>
+            </fieldset>
+                <pre id="explicacao"> 
+                Olhando pro exemplo de uma função acima podemos determinar que 
+                ele não possui um parâmetro próprio para se inicializar, logo precisa
+                    ser declarado dentro de um código.
+                </pre>
+        </section>
+
+        <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id" target="_blank">ID&nbsp</a></h1> <h1>ou&nbsp</h1> <h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/class" target="_blank">Class&nbsp</a></h1><h1>em JavaScript</h1></div>
+            <pre id="explicacao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia
+                magnam quas quis, voluptatem quo vitae facere iure exercitationem
+                dolores ea fuga quibusdam iste veniam atque sapiente facilis est eveniet!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam et tenetur
+                odit quae ex rem eaque, aperiam hic rerum officia, ullam magnam aut culpa
+                nobis natus beatae neque facere mollitia. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Numquam laboriosam nobis tempore optio
+                praesentium, dolorem suscipit accusantium saepe ad ex, quo amet sunt
+                sit labore sed. Error beatae dolore qui.
+            </pre>
+
+        <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById" target="_blank">getElementById&nbsp</a></h1><h1>em JavaScript</h1></div>
+            <pre id="explicacao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia
+                magnam quas quis, voluptatem quo vitae facere iure exercitationem
+                dolores ea fuga quibusdam iste veniam atque sapiente facilis est eveniet!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam et tenetur
+                odit quae ex rem eaque, aperiam hic rerum officia, ullam magnam aut culpa
+                nobis natus beatae neque facere mollitia. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Numquam laboriosam nobis tempore optio
+                praesentium, dolorem suscipit accusantium saepe ad ex, quo amet sunt
+                sit labore sed. Error beatae dolore qui.
+            </pre>
+
+        <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector" target="_blank">querySelector&nbsp</a></h1><h1>em JavaScript</h1></div>
+            <pre id="explicacao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia
+                magnam quas quis, voluptatem quo vitae facere iure exercitationem
+                dolores ea fuga quibusdam iste veniam atque sapiente facilis est eveniet!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam et tenetur
+                odit quae ex rem eaque, aperiam hic rerum officia, ullam magnam aut culpa
+                nobis natus beatae neque facere mollitia. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Numquam laboriosam nobis tempore optio
+                praesentium, dolorem suscipit accusantium saepe ad ex, quo amet sunt
+                sit labore sed. Error beatae dolore qui.
+            </pre>
+
+            <h1>Aplicação Funcional</h1>
+            <div class="conta"><p>
+                <input type="number" name="txtn1" id="txtn1"> +
+                <input type="number" name="txtn2" id="txtn2">
+                <button class="somar" role="button" onclick="somar()"> = </button>
+            </div>
+            <div id="res"> &nbsp</div>
+
+        <!--Footer/--->
+        <footer>
+            <p>
+                <h3><a class="texto_footer" href="https://www.instagram.com/ieeecsufba/" target="_blank">IEEE C.S UFBA</a></h3>
+            </p>
+        </footer>
+    </body>
 </html>
