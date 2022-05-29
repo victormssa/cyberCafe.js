@@ -19,7 +19,7 @@
         <!--Navbar(Header)-->
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Ínicio</a></li>
+                <li><a class="active" href="index.html">29/05</a></li>
                 <li><a href="html/sobre.html">Sobre</a></li>
                 <li><a href="https://www.instagram.com/ieeecsufba/" target="_blank">IEEE C.S UFBA</a></li>
             </ul>
@@ -28,77 +28,72 @@
 
         <!--Explicando Função-->
         <section id="função">
-            <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions" target="_blank">Função&nbsp</a></h1><h1>em JavaScript</h1></div>
-            <pre id="explicacao">
-    Função (Function), é um procedimento dentro do JavaScript, que
-    por si é um conjunto de instruções para executar uma tarefa.
-    Podendo possuir parâmetros para ser inicializado, ou não.
-            </pre>
-            
-            
+            <div id="titulo">
+                <h1 class="titulo">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions" target="_blank">Função&nbsp</a>
+                </h1>
+                <h1>
+                    em JavaScript
+                </h1>
+            </div>
+            <p id="explicacao">
+                &nbspFunção (Function), é um procedimento dentro do JavaScript, que
+                por si é um conjunto de instruções para executar uma tarefa.
+                Podendo possuir parâmetros para ser inicializado, ou não.
+            </p>
                 
             <h1>Exemplo</h1>
-            <fieldset>
-            <pre>
+            
+                <pre>
+                    <code>
+                    function somar() {
+                        var tn1 = window.document.getElementById("txtn1");
+                        var tn2 = window.document.querySelector("input#txtn2");
+                        var res = window.document.getElementById("res");
+                        var n1 = Number(tn1.value);
+                        var n2 = Number(tn2.value);
+                        var s = n1 + n2;
+                        res.innerHTML = `A soma entre ${n1} e ${n2} é equivalente a ${s}.`;
+                        }
+                    </code>
+                </pre>
+            
 
-                <code>
-&nbsp;function somar() {
-    var tn1 = window.document.getElementById("txtn1");
-    var tn2 = window.document.querySelector("input#txtn2");
-    var res = window.document.getElementById("res");
-    var n1 = Number(tn1.value);
-    var n2 = Number(tn2.value);
-    var s = n1 + n2;
-    res.innerHTML = `A soma entre ${n1} e ${n2} é equivalente a ${s}.`;&nbsp;
-    }
-                </code>
-            </pre>
-            </fieldset>
-                <pre id="explicacao"> 
-                Olhando pro exemplo de uma função acima podemos determinar que 
+                <p id="explicacao"> 
+                    &nbspOlhando pro exemplo de uma função acima podemos determinar que 
                 ele não possui um parâmetro próprio para se inicializar, logo precisa
                     ser declarado dentro de um código.
-                </pre>
+                </p>
+
         </section>
+        
 
-        <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id" target="_blank">ID&nbsp</a></h1> <h1>ou&nbsp</h1> <h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/class" target="_blank">Class&nbsp</a></h1><h1>em JavaScript</h1></div>
-            <pre id="explicacao">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia
-                magnam quas quis, voluptatem quo vitae facere iure exercitationem
-                dolores ea fuga quibusdam iste veniam atque sapiente facilis est eveniet!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam et tenetur
-                odit quae ex rem eaque, aperiam hic rerum officia, ullam magnam aut culpa
-                nobis natus beatae neque facere mollitia. Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Numquam laboriosam nobis tempore optio
-                praesentium, dolorem suscipit accusantium saepe ad ex, quo amet sunt
-                sit labore sed. Error beatae dolore qui.
-            </pre>
+        <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id" target="_blank">ID&nbsp</a></h1> 
+            <h1>ou&nbsp</h1> 
+            <h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/class" target="_blank">Class&nbsp</a>
+            </h1>
+        </div>
+            <p id="explicacao">
+                
+                &nbspEm referente a estilização e a funcionalidade de nosso script dentro de uma página da nossa aplicação, é uma facilidade poder nomear/diferenciar certos elementos entre eles, para isso temos dois Atributos que nos auxiliam: O Id e o Class.<br> <br>&nbspO atributo Id se distingue por ser uma identificação única para os elementos em HTML. Enquanto o atributo Class se distingue por ser reutilizado mais de uma vez dentro do script. No CSS, O atributo Class é referenciado pelo <strong>ponto(.)</strong>, enquanto o Id pela <strong>cerquilha(#)</strong>.
+            </p>
+            
 
-        <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById" target="_blank">getElementById&nbsp</a></h1><h1>em JavaScript</h1></div>
-            <pre id="explicacao">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia
-                magnam quas quis, voluptatem quo vitae facere iure exercitationem
-                dolores ea fuga quibusdam iste veniam atque sapiente facilis est eveniet!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam et tenetur
-                odit quae ex rem eaque, aperiam hic rerum officia, ullam magnam aut culpa
-                nobis natus beatae neque facere mollitia. Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Numquam laboriosam nobis tempore optio
-                praesentium, dolorem suscipit accusantium saepe ad ex, quo amet sunt
-                sit labore sed. Error beatae dolore qui.
-            </pre>
+            <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById" target="_blank">getElementById&nbsp</a></h1> 
+                <h1>e&nbsp</h1> 
+                <h1 class="titulo"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName" target="_blank">getElementByClassName&nbsp</a>
+                </h1>
+            </div>
+            <p id="explicacao">
+                &nbspgetElementById e getElementByClassName são dois metódos utilizados no JavaScript para capturar elementos. Em suas especificações o getElementById captura somente um elemento enquanto o getElementByClassName cria um Array com todos os elementos da Classe(Class) requisitada.
+            </p>
+            
 
         <div id="titulo"><h1 class="titulo"><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector" target="_blank">querySelector&nbsp</a></h1><h1>em JavaScript</h1></div>
-            <pre id="explicacao">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia
-                magnam quas quis, voluptatem quo vitae facere iure exercitationem
-                dolores ea fuga quibusdam iste veniam atque sapiente facilis est eveniet!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam et tenetur
-                odit quae ex rem eaque, aperiam hic rerum officia, ullam magnam aut culpa
-                nobis natus beatae neque facere mollitia. Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Numquam laboriosam nobis tempore optio
-                praesentium, dolorem suscipit accusantium saepe ad ex, quo amet sunt
-                sit labore sed. Error beatae dolore qui.
-            </pre>
+            <p id="explicacao">
+                &nbspO querySelector é um metódo por si mais recomendável e atual, pois trabalha com ambos Id e Class, mas retorna somente o primeiro elemento buscado dentro da aplicação.
+            </p>
+            <hr>
 
             <h1>Aplicação Funcional</h1>
             <div class="conta"><p>
@@ -114,5 +109,6 @@
                 <h3><a class="texto_footer" href="https://www.instagram.com/ieeecsufba/" target="_blank">IEEE C.S UFBA</a></h3>
             </p>
         </footer>
+
     </body>
 </html>

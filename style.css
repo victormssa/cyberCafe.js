@@ -12,8 +12,12 @@ h1{
     
     font-size: 40px;
     margin-top: 15px;
-    margin-bottom: 15px;
     
+    
+}
+
+strong{
+    color: white;
 }
 
 h2{
@@ -21,19 +25,24 @@ h2{
 }
 
 p{
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    margin-top: 30px;
     margin-bottom: 15px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    
 }
 
 #explicacao{
     font-family: 'Poppins', sans-serif;
-    
-    text-align: center;
     margin-bottom: 15px;
     
 }
 
-h1, h2, h3, p{
+h1, h2, h3{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     
@@ -136,7 +145,7 @@ a{
   width: 20%;
   box-sizing: border-box;
   border: 0;
-  font-size: 30px;
+  font-size: 15px;
   margin-top: 15px;
   font-family: "Poppins", sans-serif;
   
@@ -167,20 +176,21 @@ a{
 }
 
 fieldset{
-    display: flex;
+    display: grid;
+    align-content: center;
+    justify-content: center;
     border-color: #F7DF1E;
     border-radius: 2px;
-    margin-left: 400px;
-    margin-right: 600px;
-
-   
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 hr{
-    width: 1000px;
+    
     height: 2px;
     background-color: white;
     border-color: white ;
+    margin-top: 30px;
 }
 
 
@@ -202,7 +212,4 @@ footer{
     color: #1a1a1a;
     list-style: none;
     text-decoration: none;
-}
-.texto_footer:hover{
-    color:rgb(255, 162, 0);
 }
